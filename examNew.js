@@ -2,12 +2,12 @@ function exam(input) {
     let index = 0
         let studentNum = Number(input[0]);
         
-        let grades2to299 = 0
-        let grades3to399 = 0
-        let grades4to499 = 0
-        let grades5plus = 0
-        let gradeCount = 0
-        let sum = 0
+        let grades2to299 = 0;
+        let grades3to399 = 0;
+        let grades4to499 = 0;
+        let grades5plus = 0;
+        let gradeCount = 0;
+        let sum = 0;
         
         for (let i = 1; i <= input.length; i++) {
             
